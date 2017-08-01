@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
+import { NumberService } from './number.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     CommonModule
   ],
-  providers: [],
+  providers: [NumberService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
