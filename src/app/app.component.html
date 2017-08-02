@@ -4,5 +4,6 @@
 <p>{{red}}</p>
 <p [ngClass]="{'small':!red, 'big':red}">{{num}}</p>
 <button type="button" (click)="click()">Click!</button>
-<br>
-<app-name></app-name>
+<p>{{name}}</p>
+<app-name [isButton]="red" (buttonPress)="setName($event)"></app-name>
+<!-- Test -->

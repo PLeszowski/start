@@ -10,6 +10,7 @@ export class AppComponent implements OnInit{
   title:string = 'Start App';
   red:boolean = false;
   num:number;
+  name:string = "";
 
   constructor(public numberService: NumberService) {
   }
@@ -21,5 +22,9 @@ export class AppComponent implements OnInit{
 
   ngOnInit() {
     this.num = this.numberService.getNumber();
+  }
+
+  setName(event) {
+    this.name = event;
   }
 }
