@@ -5,12 +5,14 @@ import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { NameComponent } from './name.component';
+import { FunctionComponent } from './function.component';
 import { NumberService } from './number.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NameComponent
+    NameComponent,
+    FunctionComponent
   ],
   imports: [
     BrowserModule,
