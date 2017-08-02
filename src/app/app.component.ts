@@ -27,4 +27,8 @@ export class AppComponent implements OnInit{
   setName(event) {
     this.name = event;
   }
+
+  alert(name) {
+    alert(name);
+  }
 }

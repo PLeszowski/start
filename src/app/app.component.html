@@ -6,4 +6,6 @@
 <button type="button" (click)="click()">Click!</button>
 <p>{{name}}</p>
 <app-name [isButton]="red" (buttonPress)="setName($event)"></app-name>
+<br>
+<app-name [isButton]="true" (buttonPress)="alert($event)"></app-name>
 <!-- Test -->
