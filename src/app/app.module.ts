@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
+import { NameComponent } from './name.component';
 import { NumberService } from './number.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NameComponent
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,7 @@ import { NumberService } from './number.service';
 export class AppComponent implements OnInit{
   title:string = 'Start App';
   red:boolean = false;
-  num:number = 0;
+  num:number;
 
   constructor(public numberService: NumberService) {
   }
